@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>popup box</title>
+  </head>
+  <body>
+    <button onclick="openalert()">open alert popup</button>
+    <button onclick="openprompt()">open prompt popup</button>
+    <button onclick="openconfirm()">open confirm popup</button>
+  </body>
+</html>
+<script>
+  function openalert() {
+    alert("The leart pop up is opened");
+  }
+  function openprompt() {
+    var x = prompt("This is prompt pup up box");
+    console.log(x);
+  }
+  function openconfirm() {
+    confirm("this is confirm popup box");
+  }
+</script>

@@ -1,0 +1,29 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.col-md-5{
+    margin-top: 150px;
+    background-color: white;
+    padding: 20px;
+}
+
+input{
+    margin-top: 20px;
+}
+button{
+    margin-top: 20px;
+    float: left;
+}
+.success{
+    border: 3px solid green !important;
+}
+.failure{
+    border: 3px solid red !important;
+}
+small{
+    color: red;
+    font-weight: bolder;
+    
+}

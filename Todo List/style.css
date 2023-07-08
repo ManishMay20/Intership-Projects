@@ -1,0 +1,31 @@
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,233,233,1) 100%);
+}
+.col-md-5{
+    margin-top: 150px !important;
+}
+h1{
+    font-weight: bolder !important;
+    text-align: center;
+    margin: 20px !important;
+}
+button{
+    margin-left: 10px !important;
+}
+input{
+    display: inline !important;
+    border: 3px solid black !important;
+    width: 85% !important;
+
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+    display: inline; 
+    margin: 10px;
+}
+i{
+    color: red !important;
+}
